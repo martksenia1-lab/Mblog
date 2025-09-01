@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой блог</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #4a90e2;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Мой личный блог</h1>
+    <p>Добро пожаловать!</p>
+  </header>
+
+  <nav>
+    <a href="#about">Обо мне</a>
+    <a href="#life">Будни</a>
+    <a href="#thoughts">Мысли</a>
+    <a href="#conclusions">Выводы</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>Обо мне</h2>
+      <p>Здесь ты можешь рассказать о себе.</p>
+    </section>
+
+    <section id="life">
+      <h2>Будни</h2>
+      <p>Здесь можно писать о повседневной жизни.</p>
+    </section>
+
+    <section id="thoughts">
+      <h2>Мысли</h2>
+      <p>Сюда можно выкладывать свои идеи и размышления.</p>
+    </section>
+
+    <section id="conclusions">
+      <h2>Выводы</h2>
+      <p>А здесь твои личные итоги и выводы.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Мой блог</p>
+  </footer>
+</body>
+</html>
