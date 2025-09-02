@@ -1,0 +1,138 @@
+[10:15, 02.09.2025] Ksen M: <!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mblog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      background: #444;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {…
+[10:20, 02.09.2025] Ksen M: https://martksenia1-lab.github.io/Mblog/
+[10:54, 02.09.2025] Ksen M: <!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mblog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+      color: #444;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      background: #222;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mblog</h1>
+    <nav>
+      <a href="#about">Обо мне</a>
+      <a href="#days">Будни</a>
+      <a href="#thoughts">Мысли</a>
+      <a href="#conclusions">Выводы</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>Обо мне</h2>
+      <p>Здесь будет твой текст о себе ✨</p>
+    </section>
+
+    <section id="days">
+      <h2>Будни</h2>
+      <p>Записи про твои дни, события и впечатления.</p>
+    </section>
+
+    <section id="thoughts">
+      <h2>Мысли</h2>
+      <p>Здесь можно делиться своими идеями и размышлениями.</p>
+    </section>
+
+    <section id="conclusions">
+      <h2>Выводы</h2>
+      <p>Место для итогов и твоих личных решений.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mblog. Сделано с любовью 💜</p>
+  </footer>
+</body>
+</html>
