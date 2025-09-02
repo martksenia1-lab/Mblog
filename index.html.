@@ -7,95 +7,100 @@
   <style>
     body {
       margin: 0;
-      font-family: "Segoe UI", Arial, sans-serif;
-      background: #f4f6f8;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
       color: #333;
+      line-height: 1.6;
     }
+
     header {
-      background: #4a90e2;
+      background: #333;
       color: #fff;
-      padding: 20px;
+      padding: 1rem 2rem;
       text-align: center;
-      font-size: 28px;
-      font-weight: bold;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
     nav {
-      display: flex;
-      justify-content: center;
-      background: #fff;
-      padding: 10px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      background: #444;
+      padding: 0.5rem;
+      text-align: center;
     }
+
     nav a {
-      margin: 0 15px;
+      color: #fff;
+      margin: 0 1rem;
       text-decoration: none;
-      color: #4a90e2;
-      font-weight: 500;
-      transition: color 0.3s;
+      font-weight: bold;
     }
+
     nav a:hover {
-      color: #1a60a8;
+      text-decoration: underline;
     }
-    main {
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
+
     section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
       background: #fff;
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      margin-top: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
+
     section h2 {
+      color: #444;
       margin-top: 0;
-      color: #4a90e2;
     }
+
     footer {
       text-align: center;
-      padding: 20px;
-      background: #f0f0f0;
-      font-size: 14px;
-      color: #666;
-      margin-top: 40px;
+      padding: 1rem;
+      margin-top: 2rem;
+      background: #333;
+      color: #fff;
     }
   </style>
 </head>
 <body>
   <header>
-    Mblog
+    <h1>Mblog</h1>
+    <p>Личный блог Ксюши</p>
   </header>
+
   <nav>
+    <a href="#budni">Будни</a>
     <a href="#about">Обо мне</a>
-    <a href="#life">Будни</a>
     <a href="#thoughts">Мысли</a>
-    <a href="#conclusions">Выводы</a>
+    <a href="#results">Выводы</a>
   </nav>
-  <main>
-    <section id="about">
-      <h2>Обо мне</h2>
-      <p>Привет! ✨ Это мой личный блог, где я делюсь мыслями и кусочками своей жизни.</p>
-    </section>
 
-    <section id="life">
-      <h2>Будни</h2>
-      <p>Здесь будут заметки о моих днях, событиях и впечатлениях.</p>
-    </section>
+  <section id="budni">
+    <h2>Будни</h2>
+    <p>Здесь будут записи о повседневной жизни.</p>
+  </section>
 
-    <section id="thoughts">
-      <h2>Мысли</h2>
-      <p>Соберу сюда свои идеи, размышления и всё, что захочется написать.</p>
-    </section>
+  <section id="about">
+    <h2>Обо мне</h2>
+    <p>Краткая информация обо мне — увлечения, мечты и то, чем я хочу поделиться.</p>
+  </section>
 
-    <section id="conclusions">
-      <h2>Выводы</h2>
-      <p>Место для итогов, анализа и личных открытий.</p>
-    </section>
-  </main>
+  <section id="thoughts">
+    <h2>Мысли</h2>
+    <p>Тут я пишу о своих размышлениях, идеях и вдохновении.</p>
+  </section>
+
+  <section id="results">
+    <h2>Выводы</h2>
+    <p>Мои наблюдения и выводы из разных ситуаций.</p>
+  </section>
+
   <footer>
-    © 2025 Mblog — создано с любовью 💙
+    <p>© 2025 Mblog. Все права защищены.</p>
   </footer>
 </body>
 </html>
